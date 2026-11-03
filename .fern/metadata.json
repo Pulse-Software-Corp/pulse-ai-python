@@ -1,0 +1,23 @@
+{
+  "cliVersion": "5.172.1",
+  "generatorName": "fernapi/fern-python-sdk",
+  "generatorVersion": "5.41.11",
+  "generatorConfig": {
+    "client": {
+      "class_name": "Pulse",
+      "filename": "client.py"
+    },
+    "timeout_in_seconds": "infinity",
+    "pydantic_config": {
+      "version": "v2"
+    },
+    "use_typeddict_requests": true,
+    "use_typeddict_requests_for_file_upload": true
+  },
+  "originGitCommit": "31a2314a8411d048463161b6691bee51479bdb6f",
+  "originGitCommitIsDirty": false,
+  "invokedBy": "ci",
+  "requestedVersion": "2.0.0",
+  "ciProvider": "github",
+  "sdkVersion": "2.0.0"
+}
