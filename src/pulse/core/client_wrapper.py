@@ -37,12 +37,12 @@ class BaseClientWrapper:
         import platform
 
         headers: typing.Dict[str, str] = {
-            "User-Agent": "pulse-ai/2.0.0",
+            "User-Agent": "pulse-ai/2.0.1",
             "X-Fern-Language": "Python",
             "X-Fern-Runtime": f"python/{platform.python_version()}",
             "X-Fern-Platform": f"{platform.system().lower()}/{platform.release()}",
             "X-Fern-SDK-Name": "pulse-ai",
-            "X-Fern-SDK-Version": "2.0.0",
+            "X-Fern-SDK-Version": "2.0.1",
             **(self.get_custom_headers() or {}),
         }
         headers["x-api-key"] = self.api_key
